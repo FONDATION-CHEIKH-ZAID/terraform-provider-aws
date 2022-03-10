@@ -1,8 +1,8 @@
 variable "aws_region" {
-  default = "us-west-2"
+  default = "eu-west-1"
 }
 
 variable "cluster-name" {
-  default = "terraform-eks-demo"
+  default = "fcz-usager-eks"
   type    = string
 }
